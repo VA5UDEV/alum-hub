@@ -1,4 +1,4 @@
-import Header from "@/components/landing/Header";
+import Header from "@/components/site/Header";
 
 export default function Page() {
   return (
