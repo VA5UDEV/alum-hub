@@ -20,10 +20,10 @@ export default function Header() {
         <div className="flex items-center space-x-6">
           <nav className="hidden items-center space-x-6 sm:flex">
             <Link
-              href="/"
+              href="/directory"
               className="text-sm font-medium text-zinc-700 hover:text-zinc-950 dark:text-zinc-300 dark:hover:text-white"
             >
-              nav.1
+              Directory
             </Link>
           </nav>
           <nav className="hidden items-center space-x-6 sm:flex">
@@ -53,7 +53,7 @@ export default function Header() {
               <GitFork className="h-4 w-4 fill-zinc-950 dark:fill-white" />
             </a>
           </nav>
-          {/* <ModeToggle /> */}
+          <ModeToggle />
           <SignedOut>
             <SignInButton mode="modal">
               <Button variant="outline" size="sm">
