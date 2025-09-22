@@ -43,7 +43,7 @@ export default function Header() {
             </Link>
           </nav>
           <div className="hidden h-8 w-[0.5px] bg-zinc-200 sm:flex dark:bg-zinc-800" />
-          <nav className="flex items-center space-x-2">
+          {/* <nav className="flex items-center space-x-2">
             <a
               href="https://github.com/VA5UDEV"
               target="_blank"
@@ -52,7 +52,7 @@ export default function Header() {
             >
               <GitFork className="h-4 w-4 fill-zinc-950 dark:fill-white" />
             </a>
-          </nav>
+          </nav> */}
           <ModeToggle />
           <SignedOut>
             <SignInButton mode="modal">
